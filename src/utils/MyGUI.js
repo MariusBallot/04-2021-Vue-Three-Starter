@@ -8,7 +8,6 @@ class MyGui {
 
     start() {
         this.gui = new GUI();
-
     }
 
     bind() {

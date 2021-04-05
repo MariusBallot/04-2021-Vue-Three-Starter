@@ -8,7 +8,7 @@
 import MainThreeScene from "@/classes/MainThreeScene";
 
 export default {
-    name: "HelloWorld",
+    name: "ThreeScene",
     props: {
         msg: String,
     },

@@ -44,8 +44,9 @@ class MainThreeScene {
         const cube = new THREE.Mesh(new THREE.BoxGeometry(), shaderMat)
         this.scene.add(cube)
 
+        MyGUI.hide()
         if (config.myGui)
-            MyGUI.start()
+            MyGUI.show()
 
         //RENDER LOOP AND WINDOW SIZE UPDATER SETUP
         window.addEventListener("resize", this.resizeCanvas)
